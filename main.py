@@ -16,6 +16,7 @@ while True:
             print("Player KD: Infinity")
         else:
             print("Player KD: {:.2f}".format(kd_ratio))
+            input("Press Enter to exit.")
         break
 
     except ValueError:
